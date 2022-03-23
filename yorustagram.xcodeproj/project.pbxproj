@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		92CB4F793F6F98BCE03E9D67 /* Pods_yorustagram_yorustagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D501003621C8195BC59D1A50 /* Pods_yorustagram_yorustagramUITests.framework */; };
+		ADA7EF9427EB1D9F0056863A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADA7EF9327EB1D9E0056863A /* GoogleService-Info.plist */; };
 		ADE779DC27EAA66000A19B48 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE779DB27EAA66000A19B48 /* PostViewController.swift */; };
 		ADE779DE27EAA67900A19B48 /* EditiProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE779DD27EAA67900A19B48 /* EditiProfileViewController.swift */; };
 		ADE779E027EAA68800A19B48 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE779DF27EAA68700A19B48 /* SettingViewController.swift */; };
@@ -63,6 +64,7 @@
 		5713719423FBE9DFCB510434 /* Pods-yorustagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yorustagram.release.xcconfig"; path = "Target Support Files/Pods-yorustagram/Pods-yorustagram.release.xcconfig"; sourceTree = "<group>"; };
 		5F6F220272C91631C39325D6 /* Pods_yorustagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yorustagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD9FC62BB1969F2B41A9521 /* Pods-yorustagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yorustagram.debug.xcconfig"; path = "Target Support Files/Pods-yorustagram/Pods-yorustagram.debug.xcconfig"; sourceTree = "<group>"; };
+		ADA7EF9327EB1D9E0056863A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADE779DB27EAA66000A19B48 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		ADE779DD27EAA67900A19B48 /* EditiProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditiProfileViewController.swift; sourceTree = "<group>"; };
 		ADE779DF27EAA68700A19B48 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 		ADEF3F2427E9D01D00CA99DD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ADA7EF9327EB1D9E0056863A /* GoogleService-Info.plist */,
 				ADEF3EF227E9CF8E00CA99DD /* AppDelegate.swift */,
 				ADEF3EF427E9CF8E00CA99DD /* SceneDelegate.swift */,
 				ADE779EC27EAAE2400A19B48 /* DatabaseManager.swift */,
@@ -403,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADEF3EFF27E9CF9200CA99DD /* LaunchScreen.storyboard in Resources */,
+				ADA7EF9427EB1D9F0056863A /* GoogleService-Info.plist in Resources */,
 				ADEF3EFC27E9CF9200CA99DD /* Assets.xcassets in Resources */,
 				ADEF3EFA27E9CF8E00CA99DD /* Main.storyboard in Resources */,
 			);
