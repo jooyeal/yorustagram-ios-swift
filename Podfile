@@ -14,6 +14,8 @@ pod 'Firebase/Auth'
 pod 'Firebase/Database'
 pod 'Firebase/Analytics'
 pod 'Firebase/Crashlytics'
+pod 'Firebase/Storage'
+
 
 
   target 'yorustagramTests' do

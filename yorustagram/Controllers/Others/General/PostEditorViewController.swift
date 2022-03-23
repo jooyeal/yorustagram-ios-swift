@@ -1,13 +1,13 @@
 //
-//  LoginViewController.swift
+//  PostEditorViewController.swift
 //  yorustagram
 //
-//  Created by kinomoto serena on 2022/03/22.
+//  Created by kinomoto serena on 2022/03/23.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class PostEditorViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,13 +1,13 @@
 //
-//  RegistrationViewController.swift
+//  SearchViewController.swift
 //  yorustagram
 //
-//  Created by kinomoto serena on 2022/03/22.
+//  Created by kinomoto serena on 2022/03/23.
 //
 
 import UIKit
 
-class RegistrationViewController: UIViewController {
+class SearchViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
